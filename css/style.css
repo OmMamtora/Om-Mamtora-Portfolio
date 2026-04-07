@@ -5315,21 +5315,6 @@ a.close.disabled {
   50% {
     opacity: 1; } }
 
-
-.about-img {
-  width: 100%;
-  max-width: 450px;   /* control size on desktop */
-  height: auto;
-  margin: 0 auto;
-}
-
-/* Mobile fix */
-@media (max-width: 768px) {
-  .about-img {
-    max-width: 100%;   /* full width on mobile */
-  }
-}
-
 .spinner-grow {
   display: inline-block;
   width: 2rem;
